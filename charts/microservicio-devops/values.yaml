@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: alexfer202/microservicio-devops
+  tag: dev
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 3000
+
+resources: {}
+
+env:
+  APP_VERSION: "dev"
+  GIT_SHA: "unknown"
+
+imagePullSecrets:
+  - name: dockerhub-creds
