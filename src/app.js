@@ -9,7 +9,7 @@ function createApp() {
   });
 
   app.get("/", (_req, res) => {
-    res.status(200).json({ message: "Hola desde el microservicio" });
+    res.status(200).json({ message: "Hola desde el microservicio post CI" });
   });
 
   app.get("/version", (_req, res) => {
