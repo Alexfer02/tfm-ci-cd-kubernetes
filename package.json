@@ -1,0 +1,28 @@
+{
+  "name": "tfm-ci-cd-kubernetes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexfer02/tfm-ci-cd-kubernetes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexfer02/tfm-ci-cd-kubernetes/issues"
+  },
+  "homepage": "https://github.com/Alexfer02/tfm-ci-cd-kubernetes#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.2.2"
+  }
+}
